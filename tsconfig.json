@@ -17,6 +17,6 @@
       "noUnusedLocals": true,
       "noUnusedParameters": true
     },
-    "include": ["main.ts"]
+    "include": ["src/main.ts"]
   }
   
