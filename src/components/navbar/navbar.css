@@ -1,0 +1,64 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 32px;
+
+  padding: 20px 32px;
+  background-color: var(--main-black);
+}
+
+.navbar__brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  text-decoration: none;
+}
+
+.navbar__logo {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: var(--main-purple);
+}
+
+.navbar__wordmark {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 20px;
+  color: var(--white);
+}
+
+.navbar__links {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+
+  list-style: none;
+}
+
+.navbar__link a {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--white);
+  text-decoration: none;
+}
+
+.navbar__link--login a {
+  color: var(--main-green);
+}
+
+.navbar__search {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 24px;
+  height: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--white);
+}

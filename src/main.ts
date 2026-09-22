@@ -1,5 +1,12 @@
-import "./src/styles/reset.css";
-import "./src/styles/global.css";
-import "./src/styles/variables.css";
+import "./styles/reset.css";
+import "./styles/global.css";
+import "./styles/variables.css";
 
-console.log("RYTH iniciado!");
+import "./components/navbar/navbar.css";
+import "./components/footer/footer.css";
+
+import { renderNavbar } from "./components/navbar/navbar";
+import { renderFooter } from "./components/footer/footer";
+
+renderNavbar();
+renderFooter();

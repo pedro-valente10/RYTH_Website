@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RYTH</title>
+</head>
+<body>
+
+  <!-- ===================== NAVBAR (componente global) ===================== -->
+  <div id="navbar-root"></div>
+
+  <main class="main">
+
+    <!-- ===================== HERO ===================== -->
+    <section class="hero">
+      <div class="hero__frame">
+        <h1 class="hero__title">
+          UMA NOVA FORMA DE <span class="hero__title-highlight">COMPETIR</span>
+        </h1>
+        <p class="hero__subtitle">
+          <!-- texto de apoio da hero -->
+        </p>
+      </div>
+
+      <button class="btn btn--primary hero__cta">INSCRIÇÃO</button>
+    </section>
+
+    <!-- ===================== COMPETIÇÕES (carrossel) ===================== -->
+    <section id="competicoes" class="competitions">
+      <h2 class="competitions__title">COMPETIÇÕES</h2>
+
+      <div class="competitions__carousel">
+        <div class="competitions__track">
+          <article class="competitions__card"></article>
+          <article class="competitions__card"></article>
+          <article class="competitions__card"></article>
+        </div>
+
+        <div class="competitions__dots">
+          <span class="competitions__dot competitions__dot--active"></span>
+          <span class="competitions__dot"></span>
+          <span class="competitions__dot"></span>
+          <span class="competitions__dot"></span>
+          <span class="competitions__dot"></span>
+        </div>
+      </div>
+
+      <button class="btn btn--secondary competitions__cta">CONTRATAR</button>
+    </section>
+
+    <!-- ===================== O QUE É A RYTH ===================== -->
+    <section id="sobre" class="about">
+      <div class="about__content">
+        <h2 class="about__title">O que é a RYTH?</h2>
+        <p class="about__text">
+          <!-- texto explicativo sobre a RYTH -->
+        </p>
+      </div>
+
+      <div class="about__media">
+        <div class="about__video-placeholder">
+          <span>VÍDEO</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== COMO FUNCIONA UMA COMPETIÇÃO ===================== -->
+    <section id="como-funciona" class="how-it-works">
+      <h2 class="how-it-works__title">Como funciona uma competição?</h2>
+      <p class="how-it-works__text">
+        <!-- texto explicativo do funcionamento -->
+      </p>
+    </section>
+
+    <!-- ===================== PARCERIAS ===================== -->
+    <section id="parcerias" class="partnerships">
+      <h2 class="partnerships__title">Parcerias</h2>
+      <p class="partnerships__text">
+        <!-- texto sobre parcerias -->
+      </p>
+      <button class="btn btn--primary partnerships__cta">SEJA UM PARCEIRO</button>
+    </section>
+
+    <!-- ===================== MÚSICAS ===================== -->
+    <section id="musicas" class="music">
+      <h2 class="music__title">Músicas</h2>
+      <p class="music__text">
+        <!-- texto sobre envio de músicas -->
+      </p>
+      <button class="btn btn--secondary music__cta">ENVIAR MÚSICA</button>
+    </section>
+
+    <!-- ===================== QUEM ESTÁ POR TRÁS ===================== -->
+    <section id="time" class="team">
+      <h2 class="team__title">Quem está por trás</h2>
+
+      <div class="team__member">
+        <div class="team__photo"></div>
+        <div class="team__info">
+          <h3 class="team__name">Wallace Costa</h3>
+          <p class="team__bio">
+            <!-- bio do fundador -->
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== PERGUNTAS FREQUENTES ===================== -->
+    <section id="faq" class="faq">
+      <h2 class="faq__title">perguntas frequentes</h2>
+
+      <ul class="faq__list">
+        <li class="faq__item">
+          <button class="faq__question">
+            <!-- pergunta 1 -->
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <!-- resposta 1 -->
+          </div>
+        </li>
+        <li class="faq__item">
+          <button class="faq__question">
+            <!-- pergunta 2 -->
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <!-- resposta 2 -->
+          </div>
+        </li>
+        <li class="faq__item">
+          <button class="faq__question">
+            <!-- pergunta 3 -->
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <!-- resposta 3 -->
+          </div>
+        </li>
+        <li class="faq__item">
+          <button class="faq__question">
+            <!-- pergunta 4 -->
+            <span class="faq__icon">+</span>
+          </button>
+          <div class="faq__answer">
+            <!-- resposta 4 -->
+          </div>
+        </li>
+      </ul>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER (componente global) ===================== -->
+  <div id="footer-root"></div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
