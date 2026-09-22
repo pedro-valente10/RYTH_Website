@@ -1,9 +1,9 @@
+import logoUrl from "../../assets/icons/ryth-logo.svg";
+
 const footerTemplate = `
   <footer class="footer">
     <div class="footer__brand">
-      <div class="footer__logo">
-        <!-- ícone "R" da RYTH -->
-      </div>
+      <img src="${logoUrl}" alt="RYTH" class="footer__logo" />
       <span class="footer__wordmark">RYTH</span>
     </div>
 

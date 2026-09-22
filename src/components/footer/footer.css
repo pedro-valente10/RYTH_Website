@@ -17,8 +17,7 @@
 .footer__logo {
   width: 56px;
   height: 56px;
-  border-radius: 50%;
-  background-color: var(--main-purple);
+  object-fit: contain;
 }
 
 .footer__wordmark {

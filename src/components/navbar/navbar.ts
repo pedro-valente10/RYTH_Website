@@ -1,9 +1,9 @@
+import logoUrl from "../../assets/icons/ryth-logo.svg";
+
 const navbarTemplate = `
   <nav class="navbar">
     <a href="/" class="navbar__brand">
-      <div class="navbar__logo">
-        <!-- ícone "R" da RYTH -->
-      </div>
+      <img src="${logoUrl}" alt="RYTH" class="navbar__logo" />
       <span class="navbar__wordmark">RYTH</span>
     </a>
 
