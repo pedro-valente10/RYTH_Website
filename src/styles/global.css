@@ -3,4 +3,14 @@ body {
     background-color: var(--main-white);
     color: var(--main-black);
   }
+
+  html, body {
+  margin: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
   

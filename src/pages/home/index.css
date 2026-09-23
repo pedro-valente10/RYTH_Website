@@ -38,13 +38,14 @@ section {
   /* Botão Primário usa o roxo da marca */
   .btn--primary {
     background-color: var(--main-purple);
+    border-radius: 16px 16px 16px 16px;
     color: var(--white);
   }
   
   /* Botão Secundário com contorno escuro ou verde */
   .btn--secondary {
-    background-color: transparent;
-    border: 2px solid var(--main-black);
+    background-color: var(--main-green);
+    border-radius: 16px 16px 16px 16px;
     color: var(--main-black);
   }
   
@@ -56,14 +57,9 @@ section {
     background: linear-gradient(135deg, #ffffff 0%, var(--main-white) 100%);
     gap: 2rem;
   }
-
-  .hero__title,
-  .hero__subtitle {
-  overflow-wrap: break-word;
-}
-  
   
   .hero__title {
+    font-family: var(--font-monument);
     font-size: 3.5rem;
     font-weight: 900;
     letter-spacing: -1px;
@@ -75,9 +71,11 @@ section {
   }
   
   .hero__subtitle {
+    font-family: var(--font-family);
+    text-align: left;
     max-width: 600px;
     color: #4a4a5a;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
   }
   
   /* ==========================================
