@@ -11,29 +11,35 @@
 .navbar__brand {
   display: flex;
   align-items: center;
-  gap: 10px;
+  flex-shrink: 0;
+  gap: 14px;
 
   text-decoration: none;
 }
 
 .navbar__logo {
-  width: 32px;
-  height: 32px;
+  width: 52px;
+  height: 52px;
   object-fit: contain;
 }
 
 .navbar__wordmark {
   font-family: var(--font-family);
-  font-weight: 800;
-  font-size: 20px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 1;
+  letter-spacing: 0.02em;
   color: var(--white);
 }
+
 
 .navbar__links {
   display: flex;
   align-items: center;
   gap: 32px;
 
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -41,6 +47,7 @@
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
+  white-space: nowrap;
   color: var(--white);
   text-decoration: none;
 }
@@ -53,11 +60,47 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 
   width: 24px;
   height: 24px;
+  padding: 0;
   background: none;
   border: none;
   cursor: pointer;
   color: var(--white);
+}
+
+/* Celular: mesmo layout, só mais compacto */
+@media (max-width: 768px) {
+  .navbar {
+    gap: 10px;
+    padding: 14px 16px;
+  }
+
+  .navbar__brand {
+    gap: 10px;
+  }
+
+  .navbar__logo {
+    width: 42px;
+    height: 42px;
+  }
+
+  .navbar__wordmark {
+    font-size: 26px;
+  }
+
+  .navbar__links {
+    gap: 12px;
+  }
+
+  .navbar__link a {
+    font-size: 13px;
+  }
+
+  .navbar__search {
+    width: 22px;
+    height: 22px;
+  }
 }
