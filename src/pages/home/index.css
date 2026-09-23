@@ -78,26 +78,26 @@ section {
     font-size: 1.5rem;
   }
   
+  .competitions__title,
+  .how-it-works__title,
+  .partnerships__title,
+  .music__title,
+  .team__title,
+  .faq__title {
+    font-family: var(--font-monument);
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: var(--main-black);
+  }
+
   /* ==========================================
      2. COMPETIÇÕES (CARROSSEL)
      ========================================== */
   .competitions {
     background-color: #efeff4; /* Um tom ligeiramente mais escuro que o main-white para contraste */
     gap: 2rem;
-  }
-  
-  .competitions__title,
-  .about__title,
-  .how-it-works__title,
-  .partnerships__title,
-  .music__title,
-  .team__title,
-  .faq__title {
-    font-size: 2.2rem;
-    font-weight: 800;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    color: var(--main-black);
   }
   
   .competitions__carousel {
@@ -156,6 +156,15 @@ section {
     text-align: left;
     padding: 6rem 10%;
   }
+
+  .about__title {
+    font-family: var(--font-monument);
+    font-size: 2.2rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: var(--main-black);
+}
   
   .about__text {
     color: #4a4a5a;
